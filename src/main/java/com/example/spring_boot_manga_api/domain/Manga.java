@@ -13,9 +13,12 @@ public class Manga {
     public String author;
     public List<String> genre;
     public String image;
+
     @JsonProperty("publication_year")
     public int publicationYear;
+    
     public String publisher;
+
     @JsonProperty("total_chapters")
     public int totalChapters;
 }
